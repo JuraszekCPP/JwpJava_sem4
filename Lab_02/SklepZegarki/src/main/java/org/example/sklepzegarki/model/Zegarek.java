@@ -1,0 +1,17 @@
+package org.example.sklepzegarki.model;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+import java.math.BigDecimal;
+
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
+public class Zegarek {
+    private String nazwa;
+    private BigDecimal cena;
+    private String fotoURL;
+}
